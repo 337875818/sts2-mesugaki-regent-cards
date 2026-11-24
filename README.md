@@ -16,7 +16,7 @@
 | `MesugakiRegentCards_0.113_SFW.zip` | 0.113 | 储君卡图 · 全年龄 |
 | `MesugakiRegentCards_0.113_18plus.zip` | 0.113 | 储君卡图 · 成人向 |
 | `MesugakiRegentCards_0.113_Nude.zip` | 0.113 | 储君卡图 · 全裸版（18+，与上条二选一） |
-| `MesugakiRegentCards_1.13_NSFW_standalone.zip` | 0.113 (1.13) | 储君卡图 · NSFW 卡图包 · 51 张（18+，自带加载器） |
+| `MesugakiRegentCards_1.13_NSFW_v1.1.0.zip` | 0.113 (1.13) | 储君卡图 · NSFW 卡图包 · 51 张（18+，独立版） |
 | `RegentEventArt_0.3.4.zip` | 0.113 | 事件立绘 57 个 · 含 SFW/NSFW 切换 |
 | `CardPackLoader_2.1.0.zip` | 0.113+ | 卡图包通用加载器（多包共存） |
 | `CardArtMaker_v1.8.zip` | — | 卡图 mod 制作器 |
