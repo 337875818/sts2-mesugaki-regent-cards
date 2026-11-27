@@ -11,8 +11,8 @@
 
 | 文件 | 适用版本 | 内容 |
 |---|---|---|
-| `MesugakiRegentCards_0.111.1_SFW.zip` | 0.111+ | 储君卡图 · 全年龄 · 59 张 |
-| `MesugakiRegentCards_0.111.1_18plus.zip` | 0.111+ | 储君卡图 · 成人向 · 60 张 |
+| `MesugakiRegentCards_0.111.2_SFW.zip` | 0.111+ | 储君卡图 · 全年龄 · 59 张 |
+| `MesugakiRegentCards_0.111.2_18plus.zip` | 0.111+ | 储君卡图 · 成人向 · 60 张 |
 | `MesugakiRegentCards_0.113_SFW.zip` | 0.113 | 储君卡图 · 全年龄 |
 | `MesugakiRegentCards_0.113_18plus.zip` | 0.113 | 储君卡图 · 成人向 |
 | `MesugakiRegentCards_0.113_Nude.zip` | 0.113 | 储君卡图 · 全裸版（18+，与上条二选一） |
@@ -58,3 +58,16 @@ pack maker and a shared card-pack loader.
 
 Download from the Releases page, unzip, drop the folder into
 `<game dir>\mods\mods\`, enable it in the in-game mod list, restart.
+
+## 常见问题
+
+**装了没效果 / 模组列表里同名出现两条**
+
+0.111 与 0.113 两套卡图包的 mod id 相同（`RegentMesugaki113` / `MesugakiRegentCards`）。同时放在 `mods\\mods` 里会互相顶掉，勾哪个都不生效。
+
+解决：只保留一套，把另一套移出 `mods\\mods`，确认模组列表里只剩一条后勾选并重启。
+
+**日志排查**
+
+`%APPDATA%\\SlayTheSpire2\\logs\\godot.log`：
+`Skipping loading mod ...` 表示被禁用或 id 重复；`Loading assembly DLL ...` 表示 DLL 已加载。
